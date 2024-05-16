@@ -28,6 +28,11 @@ button {
   border-radius: 5px;
   margin-top: 40px;
   margin-bottom: 30px;
+  transition: 300ms;
+}
+
+button:hover {
+  box-shadow: rgba(0, 128, 0, 0.2) 0px 8px 24px;
 }
 
 input {
@@ -43,7 +48,7 @@ input {
 }
 
 .total-num {
-  color: green;
+  color: rgb(0, 128, 0);
 }
 
 .label {
